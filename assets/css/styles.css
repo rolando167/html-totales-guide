@@ -1,0 +1,35 @@
+:root {
+    --dark: #010409;
+    --dark-x: #1e2126;
+    --dark-xx: #0d1117;
+    --light: #ffffff;
+}
+
+/*===== Margenes =====*/
+:root {
+    --mb-1: 0.5rem;
+    --mb-2: 1rem;
+    --mb-3: 1.5rem;
+    --mb-4: 2rem;
+    --mb-5: 2.5rem;
+    --mb-6: 3rem;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.bg-dark {
+    background-color: var(--dark-xx) !important;
+}
+
+.bg-dark-body {
+    background-color: var(--dark) !important;
+}
+
+@media screen and (max-width: 767px) {
+    .mobile-space {
+        margin-top: 10px;
+    }
+}
