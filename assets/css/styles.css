@@ -10,6 +10,9 @@
     --sky-3: #252526;
     --sky-4: #1e1e1e;
     --body-1: #0a192f;
+    --main-1: #03dac5;
+    --main-2: #270096;
+    --main-3: #f34244;
 }
 
 /*===== Margenes =====*/
@@ -48,6 +51,18 @@ html {
 .bg-card-3{
     background-color: var(--sky-3) !important;
     color: var(--gray-1);
+}
+
+.bg-main-1{
+    background-color: var(--main-1) !important;
+}
+
+.bg-main-2{
+    background-color: var(--main-2) !important;
+}
+
+.bg-main-3{
+    background-color: var(--main-3) !important;
 }
 
 @media screen and (max-width: 767px) {

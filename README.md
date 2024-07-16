@@ -88,8 +88,9 @@ http://localhost:8080/hotel-softtek/api/v1/huespedes/eliminar/1
 
 ## Referencias 📚
 
-- * https:...
-- *
+- * https://getbootstrap.com/docs/5.3/examples/sidebars/
+- * https://alvaromontoro.com/blog/68033/new-html-element-search
+- * Google - best colors for dark mode
 
 - * 📹
 - * YT - 
