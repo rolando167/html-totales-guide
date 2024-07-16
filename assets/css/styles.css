@@ -3,6 +3,12 @@
     --dark-x: #1e2126;
     --dark-xx: #0d1117;
     --light: #ffffff;
+    --sky: #007acc;
+    --sky-1: #3e3e42;
+    --sky-2: #648ea0;
+    --sky-3: #252526;
+    --sky-4: #1e1e1e;
+    --body-1: #0a192f;
 }
 
 /*===== Margenes =====*/
@@ -25,7 +31,22 @@ html {
 }
 
 .bg-dark-body {
-    background-color: var(--dark) !important;
+    background-color: var(--body-1) !important;
+}
+
+.bg-card-1{
+    background-color: var(--sky-1) !important;
+    color: var(--light);
+}
+
+.bg-card-2{
+    background-color: var(--sky-2) !important;
+    color: var(--light);
+}
+
+.bg-card-3{
+    background-color: var(--sky-3) !important;
+    color: var(--light);
 }
 
 @media screen and (max-width: 767px) {
